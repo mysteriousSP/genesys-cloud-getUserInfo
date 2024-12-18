@@ -89,7 +89,7 @@ If you cannot use WSL (Windows Subsystem for Linux) or create a virtual environm
 ---
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the GPL-3.0 license.
 
 ---
 
