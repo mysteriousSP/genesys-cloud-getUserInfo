@@ -30,7 +30,16 @@ This project is a Python-based tool designed to interact with the Genesys platfo
    cd genesys-cloud-getUserInfo
    ```
 
-#### Step 2: Create a Virtual Environment
+#### Step 2: Modify Configuration Variables
+Before running the script, you need to modify some variables in the script to match your environment:
+   ```
+   $clientId = 'clientID-goes-here'
+   $clientSecret = 'clientSecret-Goes-Here'
+   $environment = 'usw2.pure.cloud'
+   ```
+   Ensure these variables are updated with your actual Genesys credentials and environment.
+
+#### Step 3: Create a Virtual Environment
 1. **Open Command Prompt** (if not already open).
 2. **Navigate to Your Project Directory**:
    ```
@@ -48,19 +57,19 @@ This project is a Python-based tool designed to interact with the Genesys platfo
    ```
    After activation, your command prompt will change to indicate that the virtual environment is active (e.g., it will show `(venv)` before the path).
 
-#### Step 3: Install Required Packages
+#### Step 4: Install Required Packages
 With the virtual environment active, run:
 ```
    pip install requests
 ```
 
-#### Step 4: Run the Python Script
+#### Step 5: Run the Python Script
 Execute the script:
 ```
-   python C:\path\to\genesys-cloud-getUserInfo\getUserInfo.py
+   python C:\path\to\genesys-cloud-getUserInfo\scripts\getuser_genesys2.py
 ```
 
-#### Step 5: Deactivate the Virtual Environment
+#### Step 6: Deactivate the Virtual Environment
 To deactivate the virtual environment at any time, run:
 ``` 
    deactivate
@@ -83,6 +92,7 @@ If you cannot use WSL (Windows Subsystem for Linux) or create a virtual environm
 This project is licensed under the [MIT License](LICENSE).
 
 ---
+
 
 ## Contact
 For issues or questions, please open an issue on GitHub or contact the repository maintainer directly.
