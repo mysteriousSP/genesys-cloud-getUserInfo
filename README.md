@@ -66,7 +66,7 @@ With the virtual environment active, run:
 #### Step 5: Run the Python Script
 Execute the script:
 ```
-   python C:\path\to\genesys-cloud-getUserInfo\scripts\getuser_genesys2.py
+   python C:\path\to\genesys-cloud-getUserInfo\getUserInfo.py
 ```
 
 #### Step 6: Deactivate the Virtual Environment
